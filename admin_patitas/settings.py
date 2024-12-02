@@ -86,7 +86,7 @@ if DEBUG:
         }
     }
 else:
-    postgresql://prueba_owner:jdI2DNPCfo4b@ep-morning-pine-a5bhp7jg.us-east-2.aws.neon.tech/prueba?sslmode=require
+    # postgresql://prueba_owner:jdI2DNPCfo4b@ep-morning-pine-a5bhp7jg.us-east-2.aws.neon.tech/prueba?sslmode=require
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',

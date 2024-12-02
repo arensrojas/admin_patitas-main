@@ -19,3 +19,9 @@ def v_providers(request):
         "providers_list" : Provider.objects.all()
     }
     return render(request, 'administration/providers.html', context)
+
+def v_customers(request):
+    context = {
+        "customers_list" : Customer.objects.all()
+    }
+    return render(request, 'administration/customers.html', context)
